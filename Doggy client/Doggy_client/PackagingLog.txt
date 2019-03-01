@@ -1,0 +1,29 @@
+ant:
+<ant>
+  <mkdir dir="E:\Owen\Documents\Animal sensors\Doggy client\doggy_client\for_redistribution" />
+  <mkdir dir="E:\Owen\Documents\Animal sensors\Doggy client\doggy_client\for_testing" />
+  <mkdir dir="E:\Owen\Documents\Animal sensors\Doggy client\doggy_client\for_redistribution_files_only" />
+</ant>
+mcc -C -o doggy_client -W WinMain:doggy_client -T link:exe -d 'E:\Owen\Documents\Animal sensors\Doggy client\doggy_client\for_testing' -v 'E:\Owen\Documents\Animal sensors\Doggy client\Client.m' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[¾¯¸æ: Adding path "E:\Owen\Documents\Animal sensors\Doggy client" to Compiler
+path instance.] 
+Parsing file "E:\Owen\Documents\Animal sensors\Doggy client\Client.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 6 temporary MEX authorization files.
+Removing: 'C:\Users\Owen\AppData\Local\Temp\mathworks_tmp_02dd813508_11736.auth'.
+Removing: 'C:\Users\Owen\AppData\Local\Temp\mathworks_tmp_02dd813604_11736.auth'.
+Removing: 'C:\Users\Owen\AppData\Local\Temp\mathworks_tmp_02dd815615_11736.auth'.
+Removing: 'C:\Users\Owen\AppData\Local\Temp\mathworks_tmp_02dd821994_11736.auth'.
+Removing: 'C:\Users\Owen\AppData\Local\Temp\mathworks_tmp_02dd822373_11736.auth'.
+Removing: 'C:\Users\Owen\AppData\Local\Temp\mathworks_tmp_02dd85423_11736.auth'.
+Generating file "E:\Owen\Documents\Animal sensors\Doggy client\doggy_client\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\compiler\Resources\default_icon.ico to E:\Owen\Documents\Animal sensors\Doggy client\doggy_client\for_testing\doggy_client.exe.
+Attempting to embed the CTF archive into the application E:\Owen\Documents\Animal sensors\Doggy client\doggy_client\for_testing\doggy_client.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at E:\Owen\Documents\Animal sensors\Doggy client\doggy_client\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 4 minutes and 8 seconds.
